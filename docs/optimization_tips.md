@@ -8,6 +8,7 @@ Indexes improve query performance by allowing faster search and retrieval of dat
 -- Create index on foreign keys
 CREATE INDEX idx_sales_date ON fact_sales(date_id);
 CREATE INDEX idx_sales_customer ON fact_sales(customer_id);
+```
 
 ## 🔹 2. Partitioning Large Tables
 Partitioning allows large tables (like `fact_sales`) to be divided into smaller, more manageable pieces. It improves query performance for large datasets.
