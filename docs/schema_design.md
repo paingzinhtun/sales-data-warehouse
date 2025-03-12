@@ -9,5 +9,6 @@ It consists of **one Fact Table** and **four Dimension Tables**.
 - **Dimension Tables (`dim_product`, `dim_customer`, `dim_date`, `dim_store`)**: Provide descriptive details.
 
 ## 🛠️ ER Diagram
-![ER Diagram]("C:\Users\HP\Desktop\sales-data-warehouse\images\er_diagram.png.png")
+![ER Diagram](https://github.com/paingzinhtun/sales-data-warehouse/blob/main/images/er_diagram.png)
+
  
