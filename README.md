@@ -5,19 +5,19 @@ This project is a Sales Data Warehouse built using PostgreSQL. It follows a star
 
 ## 📂 Project Structure  
 /sales-data-warehouse  
-│── README.md            # Project overview  
-│── schema.sql           # SQL script to create tables  
-│── sample_data.sql      # SQL script with sample data  
-│── queries.sql          # Common queries for analysis  
-│── docs/                # Documentation folder  
-│   ├── schema_design.md # Explanation of the schema  
-│   ├── optimization_tips.md # Performance best practices  
-│── notebooks/           # Jupyter notebooks for analysis  
-│   ├── data_cleaning.ipynb  # Cleaning and preprocessing  
-│   ├── product_performance.ipynb # Product performance analysis  
-│   ├── customer_segmentation.ipynb # Customer insights  
-│── data/                # Folder for cleaned and processed data  
-│── ERD.png              # Entity-Relationship Diagram  
+│── README.md            # Project overview | 
+│── schema.sql           # SQL script to create tables  |
+│── sample_data.sql      # SQL script with sample data  |
+│── queries.sql          # Common queries for analysis  |
+│── docs/                # Documentation folder  |
+│   ├── schema_design.md # Explanation of the schema  |
+│   ├── optimization_tips.md # Performance best practices | 
+│── notebooks/           # Jupyter notebooks for analysis | 
+│   ├── data_cleaning.ipynb  # Cleaning and preprocessing  |
+│   ├── product_performance.ipynb # Product performance analysis  |
+│   ├── customer_segmentation.ipynb # Customer insights  |
+│── data/                # Folder for cleaned and processed data | 
+│── ERD.png              # Entity-Relationship Diagram  |
   
 
 
