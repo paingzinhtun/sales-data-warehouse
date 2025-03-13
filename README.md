@@ -4,21 +4,30 @@
 This project is a Sales Data Warehouse built using PostgreSQL. It follows a star schema design with fact and dimension tables, optimized for analytics and reporting. The project includes data cleaning, product performance analysis, and customer segmentation using Python (Pandas, SQLAlchemy) and Jupyter notebooks.
 
 # Project Structure
-
 /sales-data-warehouse
-│── README.md # Project overview
-│── schema.sql # SQL script to create tables
-│── sample_data.sql # SQL script with sample data
-│── queries.sql # Common queries for analysis
-│── docs/ # Documentation folder
-│ ├── schema_design.md # Explanation of the schema
-│ ├── optimization_tips.md # Performance best practices
-│── notebooks/ # Jupyter notebooks for analysis
-│ ├── data_cleaning.ipynb # Cleaning and preprocessing
-│ ├── product_performance.ipynb # Product performance analysis
-│ ├── customer_segmentation.ipynb # Customer insights
-│── data/ # Folder for cleaned and processed data
-│── ERD.png # Entity-Relationship Diagram
+│
+├── **docs/**            # Documentation
+│   ├── schema_design.md # Database schema explanation
+│   └── optimization_tips.md # Performance tips
+│
+├── **database/**        # SQL scripts
+│   ├── schema.sql       # Table creation script
+│   ├── sample_data.sql  # Sample data script
+│   └── queries.sql      # Common SQL queries
+│
+├── **notebooks/**       # Jupyter Notebooks for analysis
+│   ├── data_cleaning.ipynb  # Data cleaning notebook
+│   ├── product_performance.ipynb  # Product analysis notebook
+│   └── customer_segmentation.ipynb  # Customer insights notebook
+│
+├── **data/**            # Processed data
+│   └── cleaned_sales_data.csv  # Cleaned dataset
+│
+├── **assets/**          # Miscellaneous project files
+│   └── ERD.png          # Entity-Relationship Diagram
+│
+├── **README.md**        # Project overview and instructions
+
 
 ## 1️⃣ Step 1: Set Up the Project
 
