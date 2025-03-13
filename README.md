@@ -4,6 +4,7 @@
 This project is a Sales Data Warehouse built using PostgreSQL. It follows a star schema design with fact and dimension tables, optimized for analytics and reporting. The project includes data cleaning, product performance analysis, and customer segmentation using Python (Pandas, SQLAlchemy) and Jupyter notebooks.
 
 # Project Structure
+```
 /sales-data-warehouse
 │
 ├── **docs/**            # Documentation
@@ -27,7 +28,7 @@ This project is a Sales Data Warehouse built using PostgreSQL. It follows a star
 │   └── ERD.png          # Entity-Relationship Diagram
 │
 ├── **README.md**        # Project overview and instructions
-
+```
 
 ## 1️⃣ Step 1: Set Up the Project
 
