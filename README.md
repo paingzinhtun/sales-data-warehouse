@@ -1,15 +1,32 @@
 # Sales Data Warehouse  
 
 ## 📌 Overview  
-This project contains a star schema for sales analytics using PostgreSQL.  
+This project is a Sales Data Warehouse built using PostgreSQL. It follows a star schema design with fact and dimension tables, optimized for analytics and reporting. The project includes data cleaning, product performance analysis, and customer segmentation using Python (Pandas, SQLAlchemy) and Jupyter notebooks.
 
 ## 📂 Project Structure  
-- `schema.sql` → Defines the database schema (fact & dimension tables).  
-- `sample_data.sql` → Contains example data for testing.  
-- `queries.sql` → Common analytical queries.  
-- `docs/` → Contains schema documentation and best practices.  
-- `notebooks/` → For Jupyter-based data analysis (optional).  
+/sales-data-warehouse  
+│── README.md            # Project overview  
+│── schema.sql           # SQL script to create tables  
+│── sample_data.sql      # SQL script with sample data  
+│── queries.sql          # Common queries for analysis  
+│── docs/                # Documentation folder  
+│   ├── schema_design.md # Explanation of the schema  
+│   ├── optimization_tips.md # Performance best practices  
+│── notebooks/           # Jupyter notebooks for analysis  
+│   ├── data_cleaning.ipynb  # Cleaning and preprocessing  
+│   ├── product_performance.ipynb # Product performance analysis  
+│   ├── customer_segmentation.ipynb # Customer insights  
+│── data/                # Folder for cleaned and processed data  
+│── ERD.png              # Entity-Relationship Diagram  
+  
 
+
+## **1️⃣ Step 1: Set Up the Project**
+- Clone the repository:
+  ```sh
+  git clone https://github.com/yourusername/sales-data-warehouse.git  
+  cd sales-data-warehouse
+  
 ## 🛠️ Installation  
 1. Install PostgreSQL.  
 2. Run `schema.sql` to create tables.  
