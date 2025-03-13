@@ -26,6 +26,21 @@ This project is a Sales Data Warehouse built using PostgreSQL. It follows a star
   ```sh
   git clone https://github.com/yourusername/sales-data-warehouse.git  
   cd sales-data-warehouse
+- Install dependencies:
+  ```sh
+  pip install pandas sqlalchemy psycopg2 jupyter
+
+## **2️⃣ Step 2: Database Schema Design**
+- The warehouse follows a star schema;
+  - Fact Table: fact_sales
+  - Dimension Tables: dim_customer, dim_product, dim_date, dim_region
+- View the schema details in docs/schema_design.md
+- Run schema.sql to create tables in PostgreSQL:
+  ```sh
+  psql -U username -d sales_db -f schema.sql
+
+
+
   
 ## 🛠️ Installation  
 1. Install PostgreSQL.  
