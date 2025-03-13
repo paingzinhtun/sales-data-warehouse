@@ -26,11 +26,12 @@ This project is a Sales Data Warehouse built using PostgreSQL. It follows a star
 ```bash
 git clone https://github.com/paingzinghtun/sales-data-warehouse.git  
 cd sales-data-warehouse
+```
 
 ### Install dependencies:
 ```bash
 pip install pandas sqlalchemy psycopg2 jupyter
-
+```
 
 ## 2️⃣ Step 2: Database Schema Design
 
@@ -43,24 +44,28 @@ View the schema details in `docs/schema_design.md`.
 Run `schema.sql` to create tables in PostgreSQL:
 ```bash
 psql -U username -d sales_db -f schema.sql
+````
 
 ## 3️⃣ Step 3: Insert Sample Data
 
 Load sample data into the database:
 ```bash
 psql -U username -d sales_db -f sample_data.sql
+```
 
 ## 4️⃣ Step 4: Run SQL Queries for Analysis
 
 Check total sales per product:
 ```bash
 psql -U username -d sales_db -f queries.sql
+```
 
 ## 5️⃣ Step 5: Data Cleaning and Preprocessing
 
 Open Jupyter Notebook:
 ```bash
 jupyter notebook
+```
 
 Run `notebooks/data_cleaning.ipynb` to clean sales data and save it as `data/cleaned_sales_data.csv`.
 
@@ -86,6 +91,7 @@ Update your repository:
 git add .
 git commit -m "Updated data analysis notebooks"
 git push origin main
+```
 
 ## 🔹 Technologies Used
 - **PostgreSQL** – Database for sales data
